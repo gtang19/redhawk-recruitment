@@ -43,7 +43,7 @@ html {
     color: white;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    width: 40vw;
+    width: 100vw;
     margin: auto;
 }
 
@@ -58,4 +58,22 @@ ul {
 
 ul a {
     margin: 10px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.video,
+.text {
+    width: 40vw;
+}
+
+.video {
+    min-width: 560px;
 }
