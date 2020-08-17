@@ -1,0 +1,61 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("background.jpg");
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.h75 {
+    height: 75%;
+}
+
+.h50 {
+    height: 50%;
+}
+
+.h25 {
+    height: 25%;
+}
+
+.h10 {
+    height: 10%;
+}
+
+.content-wrap {
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 40vw;
+    margin: auto;
+}
+
+a {
+    color: lightskyblue
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+ul a {
+    margin: 10px;
+}
