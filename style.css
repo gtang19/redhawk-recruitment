@@ -1,79 +1,87 @@
 body,
 html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: #333;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #333;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("background.jpg");
+  /* The image used */
+  background-image: url("background.jpg");
 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .4;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
 }
 
 .h100 {
-    height: 100%;
+  height: 100%;
 }
 
 .h75 {
-    height: 75%;
+  height: 75%;
 }
 
 .h50 {
-    height: 50%;
+  height: 50%;
 }
 
 .h25 {
-    height: 25%;
+  height: 25%;
 }
 
 .h10 {
-    height: 10%;
+  height: 10%;
 }
 
 .content-wrap {
-    color: white;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    width: 100vw;
-    margin: auto;
+  color: white;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  margin: auto;
 }
 
 a {
-    color: lightskyblue
+  color: lightskyblue;
 }
 
 ul {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 ul a {
-    margin: 10px;
+  margin: 10px;
 }
 
 .columns {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: left;
-    justify-content: space-around;
-    padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .video,
 .text {
-    width: 40vw;
+  width: 40vw;
 }
 
 .video {
-    min-width: 560px;
+  min-width: 560px;
+  text-align: center;
+}
+
+img {
+  max-width: 40vw;
+}
+
+#mainTitle {
+  font-size: 5em;
 }
